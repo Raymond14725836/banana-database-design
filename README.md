@@ -23,18 +23,18 @@
 
 | ผลงาน | ไฟล์ |
 | --- | --- |
-| รายงานการออกแบบฐานข้อมูล | [PDF](docs/database-design-report.pdf) |
-| สไลด์นำเสนอ | [PDF](docs/database-design-slides.pdf) |
+| รายงานการออกแบบฐานข้อมูล | [PDF](docs/reports/database-design-report.pdf) |
+| สไลด์นำเสนอ | [PDF](docs/slides/database-design-slides.pdf) |
 | แบบจำลอง EER | [ไฟล์ draw.io ที่แก้ไขได้](diagrams/eer-diagram.drawio) |
 | โครงสร้างฐานข้อมูลเชิงสัมพันธ์ | [ไฟล์ draw.io ที่แก้ไขได้](diagrams/relational-schema.drawio) |
-| การทำ Normalization ถึงระดับ 3NF | [ไฟล์ draw.io ที่แก้ไขได้](diagrams/normalization-3nf.drawio) / [PDF](docs/normalization-3nf.pdf) |
+| การทำ Normalization ถึงระดับ 3NF | [ไฟล์ draw.io ที่แก้ไขได้](diagrams/normalization-3nf.drawio) / [PDF](docs/reports/normalization-3nf.pdf) |
 | พจนานุกรมข้อมูล | [ไฟล์ draw.io ที่แก้ไขได้](diagrams/data-dictionary.drawio) |
 
 เปิด PDF บน GitHub หรือโปรแกรมอ่าน PDF ได้โดยตรง ส่วนไฟล์ `.drawio` เปิดด้วย diagrams.net หรือโปรแกรม draw.io โครงการนี้เป็นชุดเอกสาร จึงไม่ต้องติดตั้งระบบหรือฐานข้อมูลเพื่อเปิดดูผลงาน
 
 ## ตัวอย่างผลงาน
 
-![โครงสร้างฐานข้อมูลเชิงสัมพันธ์](previews/relational-schema.png)
+![โครงสร้างฐานข้อมูลเชิงสัมพันธ์](assets/previews/relational-schema.png)
 
 ## แนวทางการออกแบบ
 
@@ -71,3 +71,7 @@
 ## สิทธิ์และแหล่งอ้างอิง
 
 โครงการนี้ยังไม่ได้ให้สิทธิ์ใช้งานแบบโอเพนซอร์ส เอกสารทางการศึกษาเป็นผลงานของผู้จัดทำแต่ละส่วน ชื่อ BaNANA ภาพหน้าจอ และสื่อจากบุคคลภายนอกยังเป็นสิทธิ์ของเจ้าของเดิม โดยเก็บแหล่งอ้างอิงและการเปิดเผยการใช้ Generative AI ตามต้นฉบับไว้ในรายงาน
+
+## โครงสร้างไฟล์
+
+ดู [แผนผังไฟล์และหน้าที่ของแต่ละโฟลเดอร์](docs/STRUCTURE.md) เพื่อค้นหาโค้ด เอกสาร และหลักฐานของโครงการ
