@@ -1,75 +1,73 @@
-# BaNANA Online Database Design
+# BaNANA Online - โครงการออกแบบฐานข้อมูล
 
-Academic database analysis and design for an online IT retailer, created for **ITDS221 Database Management Systems, Section 02, Group 02, Mahidol University**.
+โครงการวิเคราะห์และออกแบบฐานข้อมูลร้านค้าอุปกรณ์ไอทีออนไลน์ สำหรับวิชา **ITDS221 Database Management Systems, Section 02, Group 02 มหาวิทยาลัยมหิดล** จัดทำเป็นทีม 5 คน โดยใช้ BaNANA Online เป็นกรณีศึกษาทางการศึกษา ไม่มีความเกี่ยวข้องหรือการรับรองจากบริษัท
 
-This repository documents business requirements, an EER model, relational mapping, normalization to third normal form (3NF), and a data dictionary. It is an academic case study based on BaNANA Online, with no affiliation or endorsement implied.
+## ส่วนที่ผมรับผิดชอบ
 
-## Project scope
-
-The design covers customer accounts, products, orders and order items, promotion codes, payments, receipts, delivery, and order cancellation.
-
-**Status:** database design deliverables. No application code, executable SQL schema, seed data, or automated database tests were included in the supplied final project folder.
-
-## Explore the project
-
-| Artifact | File |
-| --- | --- |
-| Design report | [PDF](docs/database-design-report.pdf) |
-| Presentation | [PDF](docs/database-design-slides.pdf) |
-| EER source | [Editable draw.io](diagrams/eer-diagram.drawio) |
-| Relational schema | [Editable draw.io](diagrams/relational-schema.drawio) |
-| 3NF normalization | [Editable draw.io](diagrams/normalization-3nf.drawio) / [PDF](docs/normalization-3nf.pdf) |
-| Data dictionary | [Editable draw.io](diagrams/data-dictionary.drawio) |
-
-Open the PDFs directly in GitHub or a PDF reader. Open `.drawio` files in diagrams.net or the draw.io desktop application. There are no installation or database setup steps for this documentation repository.
-
-## Design approach
-
-1. Analyze the business processes, requirements, and rules.
-2. Model entities and relationships using Chen-style ER/EER notation.
-3. Map the conceptual design to a relational schema in eight steps.
-4. Review functional dependencies and normalize the design to 3NF.
-5. Define attributes and constraints in a data dictionary.
-
-## Preview
-
-![Relational schema](previews/relational-schema.png)
-
-## Team and individual contribution
-
-This is a five-person group project. All source designs and reports are credited to the original ITDS221 Section 02 Group 02 team:
-
-- นายสุรักษ์ งามบุษกรโสภณ
-- นาย คฑาเทพ เทพหัสดิน ณ อยุธยา
-- นายศุภณัฐ แก้วการะเวก
-- นายภัทร์ธนัชนนท์ สุดถาวรเจริญ
-- นาย รัฐพงศ์ คูสกุลธรรม
-
-**Portfolio maintainer:** [Raymond14725836](https://github.com/Raymond14725836).
-
-**My contribution / ส่วนที่ผมรับผิดชอบ:**
+**รัฐพงศ์ คูสกุลธรรม (Rattapong Koosakultham)**
 
 - ร่วมจัดทำ Context Diagram และ Use Case Narrative
 - ร่วมเตรียมงานนำเสนอ รายงานและสไลด์เสร็จแล้ว
 
-Contributed to the Context Diagram and Use Case Narrative, and helped prepare the project presentation. The report and slides are complete. The database design deliverables are credited to the team.
+เอกสารและแบบจำลองฐานข้อมูลในโครงการเป็นผลงานของทีม
 
-## Repository preparation
+## ขอบเขตโครงการ
 
-- Selected the final files from the `Send2` project folder; draft versions and backups were excluded.
-- Kept the editable diagram sources with descriptive filenames.
-- Removed the report's original cover and the slide deck's team-identification page from these PDF copies because they contain student numbers. Group credits are retained above.
-- The remaining original content and printed page numbers are preserved, so PDF page positions differ from the original report and deck.
-- Word, PowerPoint, and speaking-script originals are retained outside this repository.
+วิเคราะห์ความต้องการและออกแบบฐานข้อมูลสำหรับบัญชีลูกค้า สินค้า คำสั่งซื้อ รายการสินค้าในคำสั่งซื้อ รหัสส่วนลด การชำระเงิน ใบเสร็จ การจัดส่ง และการยกเลิกคำสั่งซื้อ
 
-## Limitations and future work
+ผลงานประกอบด้วยแบบจำลอง ER/EER การแปลงเป็น Relational Schema การทำ Normalization ถึงระดับ 3NF และพจนานุกรมข้อมูล (Data Dictionary)
 
-The design has not been validated against a running database in this repository. A future implementation could add reviewed SQL DDL, synthetic sample data, example queries, and constraint tests. No such implementation is claimed here.
+**สถานะ:** จัดทำเอกสารและแบบจำลองการออกแบบฐานข้อมูลแล้ว โดยชุดผลงานนี้ยังไม่มีโค้ดแอปพลิเคชัน สคริปต์ SQL สำหรับสร้างฐานข้อมูล ข้อมูลสาธิต หรือชุดทดสอบฐานข้อมูลอัตโนมัติ
 
-## Rights and attribution
+## เปิดดูผลงาน
 
-No open-source license is granted by this repository. The academic materials remain the work of their respective authors. BaNANA names, screenshots, and other third-party materials retain their original ownership. References and the original generative-AI disclosure are preserved in the report.
+| ผลงาน | ไฟล์ |
+| --- | --- |
+| รายงานการออกแบบฐานข้อมูล | [PDF](docs/database-design-report.pdf) |
+| สไลด์นำเสนอ | [PDF](docs/database-design-slides.pdf) |
+| แบบจำลอง EER | [ไฟล์ draw.io ที่แก้ไขได้](diagrams/eer-diagram.drawio) |
+| โครงสร้างฐานข้อมูลเชิงสัมพันธ์ | [ไฟล์ draw.io ที่แก้ไขได้](diagrams/relational-schema.drawio) |
+| การทำ Normalization ถึงระดับ 3NF | [ไฟล์ draw.io ที่แก้ไขได้](diagrams/normalization-3nf.drawio) / [PDF](docs/normalization-3nf.pdf) |
+| พจนานุกรมข้อมูล | [ไฟล์ draw.io ที่แก้ไขได้](diagrams/data-dictionary.drawio) |
 
----
+เปิด PDF บน GitHub หรือโปรแกรมอ่าน PDF ได้โดยตรง ส่วนไฟล์ `.drawio` เปิดด้วย diagrams.net หรือโปรแกรม draw.io โครงการนี้เป็นชุดเอกสาร จึงไม่ต้องติดตั้งระบบหรือฐานข้อมูลเพื่อเปิดดูผลงาน
 
-โปรเจกต์นี้เป็นผลงานกลุ่มด้านการวิเคราะห์และออกแบบฐานข้อมูลร้านค้าออนไลน์ BaNANA มี ER/EER, Relational Schema, 3NF และ Data Dictionary โดยยังไม่มี SQL หรือแอปพลิเคชันสำหรับรันระบบจริง สำเนารายงานและสไลด์ใน repo ตัดหน้าที่มีรหัสนักศึกษาออกแล้ว และเก็บเครดิตสมาชิกไว้ด้านบน
+## ตัวอย่างผลงาน
+
+![โครงสร้างฐานข้อมูลเชิงสัมพันธ์](previews/relational-schema.png)
+
+## แนวทางการออกแบบ
+
+1. วิเคราะห์กระบวนการทำงาน ความต้องการ และกฎทางธุรกิจ
+2. ออกแบบเอนทิตีและความสัมพันธ์ด้วยสัญลักษณ์ ER/EER แบบ Chen
+3. แปลงแบบจำลองเชิงแนวคิดเป็นโครงสร้างฐานข้อมูลเชิงสัมพันธ์ตามกระบวนการ 8 ขั้นตอน
+4. ตรวจสอบการขึ้นต่อกันของข้อมูลและทำ Normalization ถึงระดับ 3NF
+5. กำหนดรายละเอียดแอตทริบิวต์และข้อกำหนดในพจนานุกรมข้อมูล
+
+## สมาชิกทีม
+
+ผลงานและรายงานเป็นของทีม ITDS221 Section 02 Group 02:
+
+- สุรักษ์ งามบุษกรโสภณ
+- คฑาเทพ เทพหัสดิน ณ อยุธยา
+- ศุภณัฐ แก้วการะเวก
+- ภัทร์ธนัชนนท์ สุดถาวรเจริญ
+- รัฐพงศ์ คูสกุลธรรม
+
+**ผู้ดูแลผลงานบน GitHub:** [Raymond14725836](https://github.com/Raymond14725836)
+
+## การจัดเตรียมไฟล์สำหรับเผยแพร่
+
+- คัดเลือกไฟล์ฉบับสมบูรณ์จากโฟลเดอร์ `Send2` โดยไม่รวมฉบับร่างและไฟล์สำรอง
+- เก็บไฟล์แผนภาพต้นฉบับที่แก้ไขได้ และตั้งชื่อให้สื่อความหมาย
+- สำเนา PDF ตัดปกรายงานและหน้าข้อมูลสมาชิกในสไลด์ที่มีรหัสนักศึกษาออก โดยคงเครดิตทีมไว้ด้านบน
+- เนื้อหาและเลขหน้าที่พิมพ์ไว้ในส่วนที่เหลือยังคงเดิม ตำแหน่งหน้าใน PDF จึงอาจต่างจากฉบับต้นฉบับ
+- ไฟล์ Word, PowerPoint และบทพูดต้นฉบับเก็บไว้นอกโครงการบน GitHub นี้
+
+## ข้อจำกัดและแนวทางพัฒนาต่อ
+
+แบบจำลองในโครงการนี้ยังไม่ได้ตรวจสอบกับฐานข้อมูลที่รันจริง งานที่สามารถพัฒนาต่อได้ ได้แก่ สคริปต์ SQL DDL ข้อมูลตัวอย่าง คำสั่งสืบค้น และชุดทดสอบข้อกำหนดของฐานข้อมูล
+
+## สิทธิ์และแหล่งอ้างอิง
+
+โครงการนี้ยังไม่ได้ให้สิทธิ์ใช้งานแบบโอเพนซอร์ส เอกสารทางการศึกษาเป็นผลงานของผู้จัดทำแต่ละส่วน ชื่อ BaNANA ภาพหน้าจอ และสื่อจากบุคคลภายนอกยังเป็นสิทธิ์ของเจ้าของเดิม โดยเก็บแหล่งอ้างอิงและการเปิดเผยการใช้ Generative AI ตามต้นฉบับไว้ในรายงาน
