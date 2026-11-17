@@ -47,7 +47,12 @@ This is a five-person group project. All source designs and reports are credited
 
 **Portfolio maintainer:** [Raymond14725836](https://github.com/Raymond14725836).
 
-The project discussion records Raymond's work on the relational schema and 3NF normalization. Other deliverables remain attributed to the group; this repository does not claim sole authorship of the full project.
+**My contribution / ส่วนที่ผมรับผิดชอบ:**
+
+- ร่วมจัดทำ Context Diagram และ Use Case Narrative
+- ร่วมเตรียมงานนำเสนอ รายงานและสไลด์เสร็จแล้ว
+
+Contributed to the Context Diagram and Use Case Narrative, and helped prepare the project presentation. The report and slides are complete. The database design deliverables are credited to the team.
 
 ## Repository preparation
 
